@@ -4,7 +4,7 @@ const CollaborationsSection = () => {
 
         <div id="collaborate" className="light-bg">
 
-            <h1>Collaboration Contact</h1>
+            <h1>Collaboration</h1>
 
         </div>
 
