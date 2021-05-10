@@ -8,7 +8,6 @@
     color: #010867;
     width: 80%;
     height: 100%;
-    margin: 0px;
     overflow: auto;
 }
 
@@ -18,15 +17,18 @@
 }
 
 #main div {
-    height: 75rem;
-    margin: 2rem;
+    height: 50rem;
+    margin: 0 2rem;
+    padding: 10rem 5rem;
 }
 
 #main .light-bg {
     background-color: #f6f6f6;
     color: #010867;
-    border-left: solid #010867 .1px;
-    border-right: solid #010867 .1px;
+    /* border-left: solid #010867 .1px;
+    border-right: solid #010867 .1px; */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 #main .dark-bg {
