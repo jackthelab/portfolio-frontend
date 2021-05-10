@@ -1,0 +1,38 @@
+#nav-bar {
+    display: inline-block;
+    position: absolute;
+    left: 0%;
+    background-color: #010867;
+    color: #f6f6f6;
+    width: 20%;
+    height: 100%;
+    margin: 0px;
+    
+}
+
+#nav-bar h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#nav-bar .nav {
+    position: relative;
+    top: 10%;
+    height: 50rem;
+}
+
+.nav-option:hover {
+    border-right: solid 25px #f6f6f6;
+    border-left: solid 25px #f6f6f6;
+}
+
+.nav-option a {
+    color: #f6f6f6;
+    text-decoration: none;
+}
+
+.logo {
+    height: 9rem;
+    width: 9rem;
+    margin: 1rem .5rem;
+}
