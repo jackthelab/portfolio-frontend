@@ -71,7 +71,7 @@
     width: 100%;
     border-radius: 4px;
     transition: all 500ms;
-    overflow: auto;
+    overflow: hidden;
 
     background-size: cover;
     background-position: center;
