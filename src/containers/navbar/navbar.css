@@ -24,8 +24,8 @@
 }
 
 .nav-option:hover {
-    border-right: solid 25px #f6f6f6;
-    border-left: solid 25px #f6f6f6;
+    border-right: solid 15px #f6f6f6;
+    border-left: solid 15px #f6f6f6;
 }
 
 .nav-option a {

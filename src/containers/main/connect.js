@@ -2,7 +2,7 @@ const ConnectSection = () => {
 
     return (
 
-        <div id="connect" className="dark-bg">
+        <div id="connect" className="dark-bg core-section">
 
             <h2>Connection Station</h2>
 
