@@ -3,12 +3,12 @@
     display: inline-block;
     position: absolute;
     z-index: -1;
-    left: 20%;
+    left: 10rem;
     background-color: #f6f6f6;
     /* color: #010867; */
     color: #3d84b8;
     /* background-color: #f0ebcc; */
-    width: 80%;
+    width: calc(100% - 10rem);
     height: 100%;
     overflow: auto;
 }
@@ -22,6 +22,11 @@
     height: 50rem;
     margin: 0 2rem;
     padding: 10rem 5rem;
+}
+
+#main #connect { 
+    height: 5rem;
+    padding: 2rem;
 }
 
 #main .light-bg {
@@ -58,6 +63,10 @@
         width: 100%;
         height: auto;
         overflow: auto;
+    }
+
+    #main div {
+        margin: 0;
     }
 
 }

@@ -12,6 +12,7 @@ const NavBar = () => {
                     <h2 className="nav-option"><a href="#about">About</a></h2>
                     <h2 className="nav-option"><a href="#projects">Projects</a></h2>
                     <h2 className="nav-option"><a href="#collaborate">Collaborate</a></h2>
+                    <h2 className="nav-option"><a href="#connect">Connect</a></h2>
                 </div>
             </div>
         </section>

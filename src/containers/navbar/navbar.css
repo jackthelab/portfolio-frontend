@@ -6,7 +6,7 @@
     color: #f6f6f6;
     background-color: #3d84b8;
     /* color: #f0ebcc; */
-    width: 20%;
+    width: 10rem;
     height: 100%;
     margin: 0px;
     
@@ -18,7 +18,7 @@
 }
 
 #nav-bar .nav {
-    position: relative;
+    position: fixed;
     top: 10%;
     height: 50rem;
 }
@@ -89,6 +89,22 @@
         margin: 0;
         height: 5rem;
         width: 5rem;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    #nav-bar h2 {
+        font-size: large;
+        top: auto;
+    }
+
+    .nav-option:hover {
+        border-right: solid 7.5px #f6f6f6;
+        border-left: solid 7.5px #f6f6f6;
+        padding-right: 2.5px;
+        padding-left: 2.5px;
     }
 
 }

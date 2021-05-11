@@ -4,6 +4,7 @@ import './main.css';
 import AboutSection from './about';
 import ProjectsSection from './projects';
 import CollaborationsSection from './collaborations'
+import ConnectSection from './connect';
 
 const Main = () => {
 
@@ -15,6 +16,8 @@ const Main = () => {
             <ProjectsSection />
             
             <CollaborationsSection />
+
+            <ConnectSection />
             
         </section>
     );
