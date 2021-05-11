@@ -34,8 +34,8 @@
     /* color: #010867; */
     /* background-color: #f0ebcc; */
     color: #3d84b8;
-    /* border-left: solid #010867 .1px;
-    border-right: solid #010867 .1px; */
+    border-left: solid #3d84b8 .1px;
+    border-right: solid #3d84b8 .1px;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -66,7 +66,8 @@
     }
 
     #main div {
-        margin: 0;
+        margin-left: .25rem;
+        margin-right: .25rem;
     }
 
 }
