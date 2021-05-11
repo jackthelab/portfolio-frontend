@@ -41,3 +41,23 @@
     background-color: #3d84b8;
     /* color: #f0ebcc; */
 }
+
+@media (max-width: 800px) {
+
+    #main {
+        /* background-color: #010867; */
+        display: inline-block;
+        position: absolute;
+        z-index: -1;
+        left: 0%;
+        top: 8rem;
+        background-color: #f6f6f6;
+        /* color: #010867; */
+        color: #3d84b8;
+        /* background-color: #f0ebcc; */
+        width: 100%;
+        height: auto;
+        overflow: auto;
+    }
+
+}
