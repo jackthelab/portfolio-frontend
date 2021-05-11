@@ -2,8 +2,10 @@
     display: inline-block;
     position: absolute;
     left: 0%;
-    background-color: #010867;
+    /* background-color: #010867; */
     color: #f6f6f6;
+    background-color: #3d84b8;
+    /* color: #f0ebcc; */
     width: 20%;
     height: 100%;
     margin: 0px;
@@ -28,6 +30,7 @@
 
 .nav-option a {
     color: #f6f6f6;
+    /* color: #f0ebcc; */
     text-decoration: none;
 }
 
