@@ -57,6 +57,24 @@
     /* color: #f0ebcc; */
 }
 
+#main #connect h2 {
+    margin: 1rem;
+}
+
+#main .connection-btn {
+    color: #f6f6f6;
+    border-radius: 10px;
+    margin: .25rem .25rem;
+    font-size: large;
+    padding: .5rem;
+    text-decoration: none;
+}
+
+#main .connection-btn:hover {
+    background-color: #f6f6f6;
+    color: #3d84b8;
+}
+
 #main .project-card-link {
     text-decoration: none;
     color: inherit;
