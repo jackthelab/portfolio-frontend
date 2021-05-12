@@ -1,5 +1,3 @@
-import React from 'react'
-
 // Components
 import ProjectCard from '../../components/ProjectCard'
 
@@ -9,6 +7,8 @@ const ProjectsSection = ({ projectsList }) => {
     return (
 
         <div id="projects" className="dark-bg core-section">
+
+            <h1>Projects</h1>
 
             <div className="projects-grid">
                 
