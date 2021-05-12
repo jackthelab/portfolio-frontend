@@ -2,7 +2,7 @@
 import '../../styles/main.css';
 
 // images
-import portfolioLogo from '../../img/logos/logo.png'
+import portfolioLogo from '../../img/logos/logo-2.png'
 import envelopesLogo from '../../img/logos/envelopes-logo.png'
 import yourPlansLogo from '../../img/logos/your-plans-logo.png'
 import intentionalNomadLogo from '../../img/logos/intentional-nomad-logo.png'

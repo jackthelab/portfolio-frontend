@@ -5,8 +5,8 @@
     z-index: -1;
     left: 10rem;
     background-color: #f6f6f6;
-    color: #010867;
-    /* color: #3d84b8; */
+    /* color: #010867; */
+    color: #3d84b8;
     /* background-color: #f0ebcc; */
     width: calc(100% - 10rem);
     height: 100%;
@@ -39,21 +39,21 @@
 
 #main .light-bg {
     background-color: #f6f6f6;
-    color: #010867;
+    /* color: #010867; */
     /* background-color: #f0ebcc; */
-    /* color: #3d84b8; */
-    /* border-left: solid #3d84b8 .1px;
-    border-right: solid #3d84b8 .1px; */
-    border-left: solid #010867 .1px;
-    border-right: solid #010867 .1px;
+    color: #3d84b8;
+    border-left: solid #3d84b8 .1px;
+    border-right: solid #3d84b8 .1px;
+    /* border-left: solid #010867 .1px;
+    border-right: solid #010867 .1px; */
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
 #main .dark-bg {
-    background-color: #010867;
+    /* background-color: #010867; */
     color: #f6f6f6;
-    /* background-color: #3d84b8; */
+    background-color: #3d84b8;
     /* color: #f0ebcc; */
 }
 
@@ -98,8 +98,8 @@
 
 .project-card:hover .project-details {
     background-color: #f6f6f6;
-    /* color: #3d84b8; */
-    color: #010867;
+    color: #3d84b8;
+    /* color: #010867; */
     display: block;
     width: 100%;
 }
@@ -107,9 +107,9 @@
 .project-card:hover .project-details .status-tag {
     display: inline-block;
     margin: auto;
-    padding: 0 .25rem;
     border-radius: 10px;
     margin: .25rem;
+    padding: .25rem;
     min-width: 5rem;
     max-height: 5rem;
     font-size: 18px;
@@ -117,7 +117,9 @@
 
 .project-card:hover .project-details .in-development-tag {
     background-color: #ffd56b;
-    color: #010867;
+    /* background-color: #f9f871; */
+    /* color: #010867; */
+    color: #3d84b8;
 }
 
 .project-card:hover .project-details .live-tag {
@@ -126,8 +128,8 @@
 }
 
 .project-card .action-btn {
-    /* background-color: #3d84b8; */
-    background-color: #010867;
+    background-color: #3d84b8;
+    /* background-color: #010867; */
     color: #f6f6f6;
     border-radius: 10px;
     display: inline-block;
@@ -138,10 +140,10 @@
 
 .project-card .action-btn:hover {
     background-color: #f6f6f6;
-    /* border-left: solid 10px #3d84b8;
-    border-right: solid 10px #3d84b8; */
-    border-left: solid 10px #010867;
-    border-right: solid 10px #010867;
+    border-left: solid 10px #3d84b8;
+    border-right: solid 10px #3d84b8;
+    /* border-left: solid 10px #010867;
+    border-right: solid 10px #010867; */
 }
 
 .project-card .action-btn a {
@@ -150,8 +152,8 @@
 }
 
 .project-card .action-btn:hover a {
-    /* color: #3d84b8; */
-    color: #010867;
+    color: #3d84b8;
+    /* color: #010867; */
 }
 
 @media (max-width: 800px) {
@@ -164,8 +166,8 @@
         left: 0%;
         top: 8rem;
         background-color: #f6f6f6;
-        color: #010867;
-        /* color: #3d84b8; */
+        /* color: #010867; */
+        color: #3d84b8;
         /* background-color: #f0ebcc; */
         width: 100%;
         height: auto;
