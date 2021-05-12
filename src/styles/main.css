@@ -104,6 +104,27 @@
     width: 100%;
 }
 
+.project-card:hover .project-details .status-tag {
+    display: inline-block;
+    margin: auto;
+    padding: 0 .25rem;
+    border-radius: 10px;
+    margin: .25rem;
+    min-width: 5rem;
+    max-height: 5rem;
+    font-size: 18px;
+}
+
+.project-card:hover .project-details .in-development-tag {
+    background-color: #ffd56b;
+    color: #010867;
+}
+
+.project-card:hover .project-details .live-tag {
+    background-color: #4aa96c;
+    color: #f6f6f6;
+}
+
 .project-card .action-btn {
     /* background-color: #3d84b8; */
     background-color: #010867;

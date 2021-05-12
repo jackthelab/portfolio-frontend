@@ -1,3 +1,6 @@
+// components
+import ProjectTags from './tags/ProjectTags'
+
 const ProjectCard = ({ project }) => {
 
     return (
@@ -8,6 +11,7 @@ const ProjectCard = ({ project }) => {
                 <p>{ project.description ? project.description : "There is no description for this project" }</p>
                 { project.hostedURL ? <button className="action-btn"><a href={ project.hostedURL } target="_blank">Visit on Web</a></button> : null }
                 { project.gitHubURL ? <button className="action-btn"><a href={ project.gitHubURL } target="_blank">Visit on GitHub</a></button> :null }
+                { project.tags ? <ProjectTags tags={ project.tags } /> : null }
             </div>
         </div>
 

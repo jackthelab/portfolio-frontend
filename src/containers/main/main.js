@@ -23,7 +23,7 @@ const Main = () => {
             hostedURL: null,
             image: portfolioLogo,
             description: "A portfolio site designed to showcase projects past, present, and current projects.",
-            type: "personal"
+            tags: ["development", "live"]
         },
         {
             name: "Your Plans",
@@ -31,7 +31,7 @@ const Main = () => {
             hostedURL: null,
             image: yourPlansLogo,
             description: "Finding new things and making plans doesn't have to be hard.",
-            type: "personal"
+            tags: ["development"]
         },
         {
             name: "Envelopes",
@@ -39,7 +39,7 @@ const Main = () => {
             hostedURL: null,
             image: envelopesLogo,
             description: "Organize your budgets and your spending with envelopes!",
-            type: "professional"
+            tags: ["development"]
         },
         {
             name: "Intentional Nomad",
@@ -47,7 +47,7 @@ const Main = () => {
             hostedURL: null,
             image: intentionalNomadLogo,
             description: "Adventure doesn't have to be around the world when we're intentional about the world aroudn us.",
-            type: "personal"
+            tags: ["development"]
         },
         {
             name: "Latte Mugs",
@@ -55,7 +55,7 @@ const Main = () => {
             hostedURL: null,
             image: needALatteLogo,
             description: "The best place to find your mugs with a quirk!",
-            type: "personal"
+            tags: ["development"]
         },
     ]
 
