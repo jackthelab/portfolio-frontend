@@ -54,6 +54,8 @@
     /* background-color: #010867; */
     color: #f6f6f6;
     background-color: #3d84b8;
+    /* background-color: #564a4a; */
+    /* background-color: #387331; */
     /* color: #f0ebcc; */
 }
 
@@ -73,6 +75,7 @@
 #main .connection-btn:hover {
     background-color: #f6f6f6;
     color: #3d84b8;
+    /* color: #387331; */
 }
 
 #main .project-card-link {
@@ -117,6 +120,7 @@
 .project-card:hover .project-details {
     background-color: #f6f6f6;
     color: #3d84b8;
+    /* color: #387331; */
     /* color: #010867; */
     display: block;
     width: 100%;
@@ -142,12 +146,14 @@
 
 .project-card:hover .project-details .live-tag {
     background-color: #4aa96c;
+    /* background-color: #387331; */
     color: #f6f6f6;
 }
 
 .project-card .action-btn {
     background-color: #3d84b8;
     /* background-color: #010867; */
+    /* background-color: #387331; */
     color: #f6f6f6;
     border-radius: 10px;
     display: inline-block;
