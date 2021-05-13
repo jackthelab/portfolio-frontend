@@ -150,7 +150,7 @@
     color: #f6f6f6;
 }
 
-.project-card .action-btn {
+.action-btn {
     background-color: #3d84b8;
     /* background-color: #010867; */
     /* background-color: #387331; */
@@ -162,8 +162,9 @@
     padding: .5rem;
 }
 
-.project-card .action-btn:hover {
+.action-btn:hover {
     background-color: #f6f6f6;
+    color: #3d84b8;
     border-left: solid 10px #3d84b8;
     border-right: solid 10px #3d84b8;
     /* border-left: solid 10px #010867;
@@ -209,6 +210,60 @@
     color: #f6f6f6;
     border-color: #3d84b8;
     cursor: pointer;
+}
+
+#main .collaboration-page {
+    height: 40rem;
+    margin: 5rem 5% 5rem;
+    align-items: center;
+}
+
+#main .collaboration-page h2 {
+    font-size: xx-large;
+}
+
+#main .collaboration-page h3 {
+    font-size: large;
+    margin: .5px auto;
+}
+
+#main .collaboration-page .form-input {
+    box-sizing: border-box;
+    width: 20rem;
+    height: 2rem;
+    margin: .5rem calc(50% - 10rem);
+    border: solid 1px #3d84b8;
+    padding: 1px 2px;
+}
+
+#main .collaboration-page select {
+    display: block;
+}
+
+#main .collaboration-page .form-field textarea {
+    height: 10rem;
+    width: 30rem;
+    margin: 0 calc(50% - 15rem);
+    border: solid 1px #3d84b8;
+}
+
+#main .submit-btn {
+    background-color: #3d84b8;
+    color: #f6f6f6;
+    height: 2.5rem;
+    width: 5rem;
+    margin: 0 calc(50% - 2.5rem);
+    font-size: large;
+    border-radius: 10px;
+}
+
+#main .submit-btn:hover {
+    background-color: #f6f6f6;
+    color: #3d84b8;
+    border-left: solid 10px #3d84b8;
+    border-right: solid 10px #3d84b8;
+    width: calc(5rem + 20px);
+    margin: 0 calc(50% - 2.5rem - 10px);
 }
 
 @media (min-width: 1538px) {
