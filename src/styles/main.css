@@ -210,6 +210,8 @@
     color: #f6f6f6;
     border-color: #3d84b8;
     cursor: pointer;
+    box-shadow: 2.5px 2.5px 2.5px 2.5px #010867;
+    transform: scale3d(1.05, 1.05, 1.05);
 }
 
 #main .collaboration-page {
