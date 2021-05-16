@@ -3,7 +3,7 @@ import '../../styles/main.css';
 
 // images
 import portfolioLogo from '../../img/logos/logo-2.png'
-import envelopesLogo from '../../img/logos/envelopes-logo.png'
+import taskTrackerLogo from '../../img/logos/TaskTrackerLogo.png'
 import yourPlansLogo from '../../img/logos/your-plans-logo.png'
 import intentionalNomadLogo from '../../img/logos/intentional-nomad-logo.png'
 import needALatteLogo from '../../img/logos/need-a-latte-logo.png'
@@ -23,7 +23,7 @@ const Main = () => {
             hostedURL: "http://localhost:3000",
             image: portfolioLogo,
             description: "A portfolio site designed to showcase projects past, present, and current projects.",
-            tags: ["live"]
+            tags: ["live", "react"]
         },
         {
             name: "Your Plans",
@@ -31,15 +31,15 @@ const Main = () => {
             hostedURL: null,
             image: yourPlansLogo,
             description: "Finding new things and making plans doesn't have to be hard.",
-            tags: ["development"]
+            tags: ["development", "react", "redux", "bootstrap", "ruby on rails"]
         },
         {
-            name: "Envelopes",
-            gitHubURL: null,
+            name: "Task Tracker",
+            gitHubURL: 'https://github.com/jackthelab/vue-task-tracker',
             hostedURL: null,
-            image: envelopesLogo,
-            description: "Organize your budgets and your spending with envelopes!",
-            tags: ["development"]
+            image: taskTrackerLogo,
+            description: "First VueJS project with simple CRUD and routing",
+            tags: ["development", "vue"]
         },
         {
             name: "Intentional Nomad",
