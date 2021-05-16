@@ -1,6 +1,10 @@
 #nav-bar {
-    --navbar-color-one: #3d84b8;
-    --navbar-color-two: #f6f6f6;
+    /* --navbar-color-one: #3d84b8; */
+    /* --navbar-color-one: #151515; */
+    --navbar-color-one: #301b3f;
+    /* --navbar-color-two: #f6f6f6; */
+    --navbar-color-two: #f3f4ed;
+    /* --navbar-color-two: #b4a5a5; */
 
     display: inline-block;
     position: absolute;

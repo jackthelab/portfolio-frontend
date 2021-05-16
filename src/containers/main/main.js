@@ -20,7 +20,7 @@ const Main = () => {
         {
             name: "Portfolio Site",
             gitHubURL: "https://github.com/jackthelab/portfolio-frontend/",
-            hostedURL: "http://localhost:3000",
+            hostedURL: null,
             image: portfolioLogo,
             description: "A portfolio site designed to showcase projects past, present, and current projects.",
             tags: ["live", "react"]

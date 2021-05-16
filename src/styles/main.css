@@ -1,6 +1,10 @@
 #main {
-    --main-color-one: #3d84b8;
-    --main-color-two: #f6f6f6;
+    /* --main-color-one: #3d84b8; */
+    /* --main-color-one: #151515; */
+    --main-color-one: #301b3f;
+    /* --main-color-two: #f6f6f6; */
+    --main-color-two: #f3f4ed;
+    /* --main-color-two: #a5e1ad; */
     display: inline-block;
     position: absolute;
     z-index: -1;
@@ -190,7 +194,8 @@
     color: var(--main-color-two);
     border-color: var(--main-color-one);
     cursor: pointer;
-    box-shadow: 2.5px 2.5px 2.5px 2.5px #010867;
+    /* box-shadow: 2.5px 2.5px 2.5px 2.5px #010867; */
+    box-shadow: 2.5px 2.5px 2.5px 2.5px #151515;
     transform: scale3d(1.05, 1.05, 1.05);
 }
 
